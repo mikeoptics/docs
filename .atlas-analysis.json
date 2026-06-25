@@ -1,13 +1,11 @@
 {
-  "$schema": "https://mintlify.com/docs.json",
+  "projectType": "general",
+  "projectName": "The Grind MC",
+  "projectDescription": "A player guide for The Grind Minecraft server, covering how to join, gameplay rules, server features, ranks, and community resources.",
   "theme": "almond",
-  "name": "The Grind MC",
-  "colors": {
-    "primary": "#ef7025",
-    "light": "#eec9bc",
-    "dark": "#4fa1ab"
-  },
-  "favicon": "/favicon.svg",
+  "primaryColor": "#ef7025",
+  "lightColor": "#eec9bc",
+  "darkColor": "#4fa1ab",
   "navigation": {
     "tabs": [
       {
@@ -64,16 +62,19 @@
       }
     ]
   },
-  "navbar": {
-    "primary": {
-      "type": "button",
-      "label": "Join Now",
-      "href": "https://discord.gg/thegrindmc"
-    }
-  },
-  "footer": {
-    "socials": {
-      "discord": "https://discord.gg/thegrindmc"
-    }
-  }
+  "keyFeatures": [
+    "Survival and other game modes",
+    "Player economy with shops and trading",
+    "Land claiming system",
+    "PvP zones and arenas",
+    "Donor ranks and cosmetic perks",
+    "Active Discord community",
+    "Dedicated staff team"
+  ],
+  "publicApiSurface": [
+    "/join server IP",
+    "in-game commands (/home, /sethome, /warp, /shop, /balance, /pay)",
+    "rank purchase portal",
+    "Discord community server"
+  ]
 }
